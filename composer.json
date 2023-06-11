@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Savrasov",
+            "email": "savrasov.dev@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
