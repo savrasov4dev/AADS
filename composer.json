@@ -16,6 +16,11 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "*",
+        "psy/psysh": "^0.11.18"
+    },
+    "scripts": {
+        "test": "phpunit --colors=always",
+        "psy": "psysh"
     }
 }
